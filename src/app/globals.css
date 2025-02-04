@@ -57,19 +57,20 @@ body {
   }
 }
 
-@layer base {
-  * {
-    @apply border-border;
-  }
-  body {
-    @apply bg-background text-foreground;
-    background: linear-gradient(
-      to bottom right,
-      rgba(17, 24, 39, 1),
-      rgba(88, 28, 135, 1)
-    );
-    min-height: 100vh;
-  }
+/* Base styles */
+* {
+  border-color: hsl(var(--border));
+}
+
+body {
+  background-color: hsl(var(--background));
+  color: hsl(var(--foreground));
+  background: linear-gradient(
+    to bottom right,
+    rgba(17, 24, 39, 1),
+    rgba(88, 28, 135, 1)
+  );
+  min-height: 100vh;
 }
 
 /* Custom styles for task cards */
@@ -87,7 +88,9 @@ body {
 /* Gradient text */
 .gradient-text {
   background: linear-gradient(45deg, #22c55e, #3b82f6);
+  background-clip: text;
   -webkit-background-clip: text;
+  color: transparent;
   -webkit-text-fill-color: transparent;
 }
 
