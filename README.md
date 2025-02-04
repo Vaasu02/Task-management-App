@@ -1,8 +1,14 @@
 # Task Management Application
 
-A modern task management application built with Next.js 14, featuring server actions and MongoDB integration. The application allows users to manage tasks with create, read, update, and delete operations.
+A modern task management application built with Next.js 15, featuring server actions and MongoDB integration. The application allows users to manage tasks with create, read, update, and delete operations.
 
 ![Task Management App](public/task-management.png)
+
+## Screenshots
+
+![Screenshot 1](public/task-readme1.png)
+![Screenshot 2](public/task-readme2.png)
+![Screenshot 3](public/task-readme3.png)
 
 ## 🌟 Features
 
@@ -29,7 +35,7 @@ A modern task management application built with Next.js 14, featuring server act
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: Next.js 14
+- **Frontend**: Next.js 15
 - **Backend**: Next.js Server Actions
 - **Database**: MongoDB
 - **Styling**: Tailwind CSS
