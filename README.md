@@ -1,8 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Task Management Application
 
-## Getting Started
+A modern task management application built with Next.js 15, featuring server actions and MongoDB integration. The application allows users to manage tasks with create, read, update, and delete operations.
 
-First, run the development server:
+![Task Management App](public/task-management.png)
+
+## 🌟 Features
+
+- **Task Operations**
+  - Create new tasks
+  - View existing tasks
+  - Edit task details
+  - Delete tasks
+  - Mark tasks as complete/incomplete
+
+- **Task Details**
+  - Title
+  - Description
+  - Due date
+  - Status tracking
+  - Creation timestamp
+
+- **Modern UI/UX**
+  - Responsive design
+  - Glass morphism effects
+  - Dark theme
+  - Smooth animations
+  - Toast notifications
+
+## Screenshots
+
+![Screenshot 1](public/task-readme1.png)
+![Screenshot 2](public/task-readme2.png)
+![Screenshot 3](public/task-readme3.png)
+
+## 🛠️ Tech Stack
+
+- **Frontend**: Next.js 15(latest version)
+- **Backend**: Next.js Server Actions
+- **Database**: MongoDB
+- **Styling**: Tailwind CSS
+- **UI Components**: shadcn/ui
+- **Form Handling**: React Hook Form
+- **Validation**: Zod
+- **Database ODM**: Mongoose
+- **Deployment**: Vercel
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js 18+ 
+- MongoDB database (local or Atlas)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
 
 ```bash
 npm run dev
